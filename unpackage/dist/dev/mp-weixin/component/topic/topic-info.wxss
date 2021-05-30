@@ -1,0 +1,42 @@
+.topic-bg.data-v-7f3d9b4c {
+  width: 100%;
+  height: 300rpx;
+  position: relative;
+  overflow: hidden;
+}
+.topic-bg image.data-v-7f3d9b4c {
+  width: 100%;
+  position: absolute;
+  -webkit-filter: blur(10rpx);
+          filter: blur(10rpx);
+}
+.topic-info.data-v-7f3d9b4c {
+  padding: 0 25rpx;
+  position: relative;
+}
+.topic-info .topic-info-t image.data-v-7f3d9b4c {
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 20rpx;
+  position: absolute;
+  top: -75rpx;
+}
+.topic-info .topic-info-t view.data-v-7f3d9b4c {
+  font-size: 35rpx;
+  margin-left: 170rpx;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.topic-info .topic-info-c.data-v-7f3d9b4c {
+  padding: 35rpx 0 15rpx 0;
+}
+.topic-info .topic-info-c view.data-v-7f3d9b4c {
+  color: #cdcdcd;
+}
+.topic-info .topic-info-b.data-v-7f3d9b4c {
+  color: #a3a3a3;
+  font-size: 32rpx;
+  padding-bottom: 20rpx;
+}
+

@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/news/news",
+    "pages/papers/papers",
+    "pages/my/my",
+    "pages/search/search",
+    "pages/add-input/add-input",
+    "pages/topic-nav/topic-nav",
+    "pages/topic-datial/topic-datial",
+    "pages/user-list/user-list",
+    "pages/user-chat/user-chat"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "仿**百科",
+    "navigationBarBackgroundColor": "#fff",
+    "backgroundColor": "#fff"
+  },
+  "tabBar": {
+    "color": "#adadad",
+    "selectedColor": "#fee42a",
+    "backgroundColor": "#fff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "糗事",
+        "iconPath": "static/tabbar/index.png",
+        "selectedIconPath": "static/tabbar/indexed.png"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "text": "动态",
+        "iconPath": "static/tabbar/news.png",
+        "selectedIconPath": "static/tabbar/newsed.png"
+      },
+      {
+        "pagePath": "pages/papers/papers",
+        "text": "小纸条",
+        "iconPath": "static/tabbar/paper.png",
+        "selectedIconPath": "static/tabbar/papered.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "static/tabbar/home.png",
+        "selectedIconPath": "static/tabbar/homeed.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

@@ -1,0 +1,14 @@
+
+.tag-sex.data-v-e26175be {
+	background-color: #44B3FF;
+	color: #fff;
+	font-size: 24rpx;
+	padding: 5rpx 10rpx;
+	margin-left: 10rpx;
+	border-radius: 20rpx;
+	line-height: 30rpx;
+}
+.icon-nv.data-v-e26175be{
+	background-color: #ff698d!important;
+}
+

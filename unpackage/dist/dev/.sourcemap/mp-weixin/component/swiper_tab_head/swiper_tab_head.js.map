@@ -1,0 +1,1 @@
+{"version":3,"sources":["uni-app:///main.js"],"names":["createPage","Page"],"mappings":";;;;;;;;;;kDAAA;AACA;AACA,8O;AACAA,UAAU,CAACC,wBAAD,CAAV,C","file":"component/swiper_tab_head/swiper_tab_head.js","sourcesContent":["import 'uni-pages';\nimport Vue from 'vue'\nimport Page from './component/swiper_tab_head/swiper_tab_head.vue'\ncreatePage(Page)"],"sourceRoot":""}

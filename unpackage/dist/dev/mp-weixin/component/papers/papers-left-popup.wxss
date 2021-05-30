@@ -1,0 +1,20 @@
+.paper-left-popup.data-v-2cec08c4 {
+  position: fixed;
+  right: 0;
+  z-index: 2000;
+  background: #fff;
+  width: 55%;
+  box-shadow: 1rpx 1rpx 20rpx 2rpx #ccc;
+}
+.paper-left-popup > view.data-v-2cec08c4 {
+  padding: 20rpx;
+  font-size: 35rpx;
+}
+.paper-left-popup > view > view.data-v-2cec08c4 {
+  margin: 10rpx;
+  font-weight: bold;
+}
+.paper-left-popup-h.data-v-2cec08c4 {
+  background: #eee;
+}
+

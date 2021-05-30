@@ -1,0 +1,1 @@
+<view class="user-chat-bottom u-f-ac data-v-0e86c2f3"><input type="text" value="{{text}}" data-event-opts="{{[['input',[['__set_model',['','text','$event',[]]]]]]}}" bindinput="__e" class="data-v-0e86c2f3"/><view data-event-opts="{{[['tap',[['submit',['$event']]]]]}}" class="icon iconfont icon-fabu data-v-0e86c2f3" bindtap="__e"></view></view>

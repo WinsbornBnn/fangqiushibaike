@@ -1,0 +1,243 @@
+{
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				// "navigationStyle":"custom",// 关闭小程序顶部导航栏
+				"app-plus": {
+					"scrollIndicator": "none", //隐藏滚动条
+					"bounce": "none", // 关闭反弹效果
+					"titleNView": {
+						// 搜索框
+						"searchInput": {
+							"align": "center",
+							"backgroundColor": "#f7f7f7",
+							"borderRadius": "4px",
+							"placeholder": "搜索糗事/内容",
+							"placeholderColor": "#ccc",
+							"disabled": true
+						},
+						// 按钮
+						"buttons": [
+							// 左边
+							{
+								"color": "#ff9619",
+								"colorPressed": "#bbb",
+								"float": "left",
+								"fontSize": "22px",
+								"fontSrc": "/static/font/iconfont.ttf",
+								"text": "\ue609"
+							},
+							// 右边
+							{
+								"color": "#000000",
+								"colorPressed": "#bbb",
+								"float": "right",
+								"fontSize": "22px",
+								"fontSrc": "/static/font/iconfont.ttf",
+								"text": "\ue653"
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/news/news",
+			"style": {
+				"titleNView": false
+			}
+		}, {
+			"path": "pages/papers/papers",
+			"style": {
+				"navigationBarTitleText": "小纸条",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"titleNView": {
+						"buttons": [
+							// 左边
+							{
+								"color": "#000000",
+								"colorPressed": "#bbb",
+								"float": "left",
+								"fontSize": "22px",
+								"fontSrc": "/static/font/iconfont.ttf",
+								"text": "\ue845"
+							},
+							// 右边
+							{
+								"color": "#000000",
+								"colorPressed": "#bbb",
+								"float": "right",
+								"fontSize": "22px",
+								"fontSrc": "/static/font/iconfont.ttf",
+								"text": "\ue684"
+							}
+						]
+					}
+				}
+			}
+
+		}, {
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+
+		}, {
+			"path": "pages/search/search",
+			"style": {
+				"app-plus": {
+					"scrollIndicator": "none", //隐藏滚动条
+					"bounce": "none",
+					"titleNView": {
+						"autoBackButton": false,
+						// 搜索框
+						"searchInput": {
+							"align": "left",
+							"backgroundColor": "#f7f7f7",
+							"borderRadius": "4px",
+							"placeholder": "搜索糗事/内容",
+							"placeholderColor": "#ccc",
+							"disabled": false
+						},
+						// 按钮
+						"buttons": [
+							// 右边
+							{
+								"color": "#000000",
+								"colorPressed": "#bbb",
+								"float": "right",
+								"fontSize": "16px",
+								"text": "取消"
+							}
+						]
+					}
+				}
+			}
+
+		}, {
+			"path": "pages/add-input/add-input",
+			"style": {
+				"app-plus": {
+					// 禁止原生导航
+					"titleNView": false,
+					"bounce": "none"
+				}
+			}
+
+		}, {
+			"path": "pages/topic-nav/topic-nav",
+			"style": {
+				"navigationBarTitleText": "话题分类",
+				"app-plus": {
+					"bounce": "none"
+				}
+			}
+
+		}, {
+			"path": "pages/topic-datial/topic-datial",
+			"style": {
+				"enablePullDownRefresh": true, //开启下拉刷新
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent", //渐变
+						"buttons": [{
+							"type": "menu"
+						}]
+					},
+					"scrollIndicator": "none"
+				}
+			}
+		}, {
+			"path": "pages/user-list/user-list",
+			"style": {
+				"app-plus": {
+					"animationType": "slide-in-left",
+					"scrollIndicator": "none", //隐藏滚动条
+					"bounce": "none",
+					"titleNView": {
+						"autoBackButton": false,
+						// 搜索框
+						"searchInput": {
+							"align": "left",
+							"backgroundColor": "#f7f7f7",
+							"borderRadius": "4px",
+							"placeholder": "搜索糗事/内容",
+							"placeholderColor": "#ccc",
+							"disabled": false
+						},
+						// 按钮
+						"buttons": [
+							// 右边
+							{
+								"color": "#000000",
+								"colorPressed": "#bbb",
+								"float": "right",
+								"fontSize": "16px",
+								"text": "取消"
+							}
+						]
+					}
+				}
+			}
+
+		}, {
+			"path": "pages/user-chat/user-chat",
+			"style": {
+				"navigationBarTitleText": "聊天页面",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"color": "#000000",
+							"colorPressed": "#bbb",
+							"float": "right",
+							"fontSize": "22px",
+							"fontSrc": "/static/font/iconfont.ttf",
+							"text": "\ue628"
+						}]
+					}
+				}
+			}
+
+		}
+	],
+	// 默认页面窗口表现
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "仿**百科",
+		"navigationBarBackgroundColor": "#fff",
+		"backgroundColor": "#fff"
+	},
+	// 底部导航
+	"tabBar": {
+		"color": "#adadad",
+		"selectedColor": "#fee42a",
+		"backgroundColor": "#fff",
+		"borderStyle": "black",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "糗事",
+				"iconPath": "static/tabbar/index.png",
+				"selectedIconPath": "static/tabbar/indexed.png"
+			},
+			{
+				"pagePath": "pages/news/news",
+				"text": "动态",
+				"iconPath": "static/tabbar/news.png",
+				"selectedIconPath": "static/tabbar/newsed.png"
+			},
+			{
+				"pagePath": "pages/papers/papers",
+				"text": "小纸条",
+				"iconPath": "static/tabbar/paper.png",
+				"selectedIconPath": "static/tabbar/papered.png"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"text": "我的",
+				"iconPath": "static/tabbar/home.png",
+				"selectedIconPath": "static/tabbar/homeed.png"
+			}
+		]
+	}
+}

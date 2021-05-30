@@ -1,0 +1,28 @@
+/* .uni-navbar__header-container,.uni-navbar__content_view{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+} */
+.uni-textarea {
+  border: 1rpx solid #eee;
+}
+.popup-content {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 10rpx;
+}
+.popup-content image {
+  width: 75%;
+  margin-bottom: 20rpx;
+}
+.popup-content button {
+  margin-top: 20rpx;
+  background-color: #ffe934;
+  color: #171610;
+  -webkit-tap-highlight-color: transparent;
+}
+.popup-content .button::after {
+  border: none;
+  background-color: none;
+}
+

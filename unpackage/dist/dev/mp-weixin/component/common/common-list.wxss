@@ -1,0 +1,77 @@
+.common-list.data-v-d68e5a08 {
+  padding: 20rpx;
+}
+.common-list .common-list-left.data-v-d68e5a08 {
+  -webkit-flex-shrink: 0;
+          flex-shrink: 0;
+}
+.common-list .common-list-left image.data-v-d68e5a08 {
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 100%;
+}
+.common-list .common-list-right.data-v-d68e5a08 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  margin-left: 15rpx;
+  width: 85%;
+  border-bottom: 2rpx solid #eee;
+  padding-bottom: 10rpx;
+}
+.common-list .common-list-right .one .nickname.data-v-d68e5a08 {
+  color: #999;
+  font-size: 30rpx;
+}
+.common-list .common-list-right .one .icon-zengjia.data-v-d68e5a08 {
+  background: #eee;
+  padding: 0 10rpx;
+  font-size: 26rpx;
+  border-radius: 5rpx;
+}
+.common-list .common-list-right .two.data-v-d68e5a08 {
+  font-size: 32rpx;
+  padding: 12rpx 0;
+}
+.common-list .common-list-right .three.data-v-d68e5a08 {
+  position: relative;
+  margin-bottom: 10rpx;
+}
+.common-list .common-list-right .three image.data-v-d68e5a08 {
+  border-radius: 20rpx;
+}
+.common-list .common-list-right .three .common-list-play.data-v-d68e5a08 {
+  position: absolute;
+  font-size: 140rpx;
+  color: #fff;
+}
+.common-list .common-list-right .three .common-list-playinfo.data-v-d68e5a08 {
+  position: absolute;
+  background: rgba(51, 51, 51, 0.73);
+  color: #fff;
+  bottom: 10rpx;
+  right: 24rpx;
+  border-radius: 20rpx;
+  font-size: 22rpx;
+  padding: 0 15rpx;
+}
+.common-list .common-list-right .three .common-list-share.data-v-d68e5a08 {
+  background-color: #f7f7f7;
+  width: 100%;
+  border-radius: 10rpx;
+  padding: 10rpx;
+}
+.common-list .common-list-right .three .common-list-share image.data-v-d68e5a08 {
+  width: 200rpx;
+  height: 150rpx;
+  margin-right: 20rpx;
+}
+.common-list .common-list-right .four.data-v-d68e5a08 {
+  color: #bbb;
+}
+.common-list .common-list-right .four .all > view.data-v-d68e5a08 {
+  margin-left: 6rpx;
+  padding-left: 5rpx;
+  font-size: 28rpx;
+}
+

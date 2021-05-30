@@ -1,0 +1,10 @@
+{
+  "titleNView": false,
+  "usingComponents": {
+    "common-list": "/component/common/common-list",
+    "news-nav-bar": "/component/news/news-nav-bar",
+    "load-more": "/component/common/load-more",
+    "topic-nav": "/component/news/topic-nav",
+    "topic-list": "/component/news/topic-list"
+  }
+}
